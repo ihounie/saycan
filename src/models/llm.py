@@ -6,6 +6,7 @@ import re
 from openai import OpenAI
 import torch
 from unsloth import FastLanguageModel
+import os
 
 # Initialize the OpenAI client with your API key
 client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
