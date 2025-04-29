@@ -12,9 +12,9 @@ pip install -r requirements.txt
 
 ### 2.1 Download PyBullet assets.
 ```
-  gdown --id 1Cc_fDSBL6QiDvNT4dpfAEbhbALSVoWcc
-  gdown --id 1yOMEm-Zp_DL3nItG9RozPeJAmeOldekX
-  gdown --id 1GsqNLhEl9dd4Mc3BM0dX3MibOI1FVWNM
+  gdown --id 1Cc_fDSBL6QiDvNT4dpfAEbhbALSVoWcc --fuzzy 
+  gdown --id 1yOMEm-Zp_DL3nItG9RozPeJAmeOldekX --fuzzy 
+  gdown --id 1GsqNLhEl9dd4Mc3BM0dX3MibOI1FVWNM --fuzzy 
   unzip ur5e.zip
   unzip robotiq_2f_85.zip
   unzip bowl.zip
@@ -30,11 +30,11 @@ You can skip this process if you want to generate data by yourself with `gen_dat
 Download pregenerated dataset by running
 
 ```
-gdown --id 1yCz6C-6eLWb4SFYKdkM-wz5tlMjbG2h8
+gdown --id 1yCz6C-6eLWb4SFYKdkM-wz5tlMjbG2h8 --fuzzy
 ```
 ### 2.4 Download pretrained low-level policy.
 ```
-gdown --id 1Nq0q1KbqHOA5O7aRSu4u7-u27EMMXqgP
+gdown --id 1Nq0q1KbqHOA5O7aRSu4u7-u27EMMXqgP --fuzzy
 ```
 
 ### 3. You are all set!

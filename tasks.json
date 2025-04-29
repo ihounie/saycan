@@ -1,0 +1,178 @@
+[
+  {
+    "raw_input": "put each block in its corresponding bowl",
+    "config": {
+      "pick": ["red block", "blue block", "green block", "yellow block"],
+      "place": ["red bowl", "blue bowl", "green bowl", "yellow bowl"]
+    },
+    "description": "Configuration 1: All four colored blocks and matching bowls"
+  },
+  {
+    "raw_input": "put each block in its corresponding bowl",
+    "config": {
+      "pick": ["red block", "green block", "blue block"],
+      "place": ["red bowl", "green bowl", "blue bowl"]
+    },
+    "description": "Configuration 2: Three colored blocks and matching bowls"
+  },
+  {
+    "raw_input": "put the blue stuff together",
+    "config": {
+      "pick": ["blue block", "red block", "yellow block"],
+      "place": ["blue bowl", "red bowl", "yellow bowl"]
+    },
+    "description": "Configuration 1: One blue block, other colored blocks, and corresponding bowls"
+  },
+  {
+    "raw_input": "put the blue stuff together",
+    "config": {
+      "pick": ["blue block", "blue block", "red block", "green block"],
+      "place": ["blue bowl", "red bowl", "green bowl"]
+    },
+    "description": "Configuration 2: Multiple blue blocks with various bowls"
+  },
+  {
+    "raw_input": "stack the blocks that aren't red",
+    "config": {
+      "pick": ["red block", "blue block", "green block", "yellow block"],
+      "place": ["blue bowl", "green bowl", "yellow bowl"]
+    },
+    "description": "Configuration 1: Four blocks including one red block, three bowls"
+  },
+  {
+    "raw_input": "stack the blocks that aren't red",
+    "config": {
+      "pick": ["red block", "red block", "green block"],
+      "place": ["blue bowl", "green bowl"]
+    },
+    "description": "Configuration 2: Two red blocks, one green block, two bowls"
+  },
+  {
+    "raw_input": "Put blocks in bowls with non-matching colors",
+    "config": {
+      "pick": ["red block", "blue block", "green block", "yellow block"],
+      "place": ["blue bowl", "green bowl", "yellow bowl", "red bowl"]
+    },
+    "description": "Configuration 1: All four colored blocks with all four bowls"
+  },
+  {
+    "raw_input": "Put blocks in bowls with non-matching colors",
+    "config": {
+      "pick": ["red block", "blue block", "green block"],
+      "place": ["blue bowl", "green bowl", "yellow bowl"]
+    },
+    "description": "Configuration 2: Three colored blocks with three bowls (one is non-matching color relative to picks)"
+  },
+  {
+    "raw_input": "Give every bowl an odd number of blocks—or none at all",
+    "config": {
+      "pick": ["red block", "blue block", "green block"],
+      "place": ["red bowl", "blue bowl", "green bowl"]
+    },
+    "description": "Configuration 1: Three blocks, three bowls (expecting one per bowl)"
+  },
+  {
+    "raw_input": "Give every bowl an odd number of blocks—or none at all",
+    "config": {
+      "pick": ["red block", "red block", "red block", "blue block", "green block"],
+      "place": ["red bowl", "blue bowl", "green bowl"]
+    },
+    "description": "Configuration 2: Five blocks (three red), three bowls (expecting e.g., 3 in red, 1 in blue, 1 in green)"
+  },
+  {
+    "raw_input": "Separate the blocks by color, putting each color group into a different bowl.",
+    "config": {
+      "pick": ["red block", "red block", "blue block", "green block", "green block", "green block"],
+      "place": ["red bowl", "blue bowl", "green bowl", "yellow bowl"]
+    },
+    "description": "Challenge 1 - Config 1: Separate distinct color groups into distinct bowls."
+  },
+  {
+    "raw_input": "Separate the blocks by color, putting each color group into a different bowl.",
+    "config": {
+      "pick": ["red block", "blue block", "green block", "yellow block", "yellow block"],
+      "place": ["red bowl", "blue bowl"]
+    },
+    "description": "Challenge 1 - Config 2: Separate colors, but insufficient distinct bowls."
+  },
+  {
+    "raw_input": "Create a stack of blocks following rainbow order (R,Y,G,B) in any bowl.",
+    "config": {
+      "pick": ["red block", "yellow block", "green block", "blue block", "red block"],
+      "place": ["yellow bowl", "blue bowl"]
+    },
+    "description": "Challenge 2 - Config 1: Stack R,Y,G,B blocks in order into one bowl."
+  },
+  {
+    "raw_input": "Create a stack of blocks following rainbow order (R,Y,G,B) in any bowl.",
+    "config": {
+      "pick": ["red block", "green block", "blue block"],
+      "place": ["red bowl", "green bowl"]
+    },
+    "description": "Challenge 2 - Config 2: Stack available rainbow colors (R,G,B) in order."
+  },
+  {
+    "raw_input": "Distribute the blocks as evenly as possible among the available bowls.",
+    "config": {
+      "pick": ["red block", "blue block", "green block", "yellow block", "red block", "blue block"],
+      "place": ["red bowl", "blue bowl", "green bowl"]
+    },
+    "description": "Challenge 3 - Config 1: Distribute blocks evenly among bowls."
+  },
+  {
+    "raw_input": "Distribute the blocks as evenly as possible among the available bowls.",
+    "config": {
+      "pick": ["red block", "blue block", "green block", "yellow block", "red block"],
+      "place": ["red bowl", "blue bowl"]
+    },
+    "description": "Challenge 3 - Config 2: Distribute blocks unevenly but as balanced as possible."
+  },
+  {
+    "raw_input": "Put pairs of same-colored blocks into bowls. Leave single blocks.",
+    "config": {
+      "pick": ["red block", "red block", "blue block", "blue block", "green block"],
+      "place": ["red bowl", "blue bowl", "green bowl"]
+    },
+    "description": "Challenge 4 - Config 1: Pair up same-colored blocks into bowls."
+  },
+  {
+    "raw_input": "Put pairs of same-colored blocks into bowls. Leave single blocks.",
+    "config": {
+      "pick": ["red block", "red block", "blue block", "blue block", "green block", "green block", "yellow block"],
+      "place": ["red bowl", "blue bowl"]
+    },
+    "description": "Challenge 4 - Config 2: Pair up blocks, but limited bowls."
+  },
+  {
+    "raw_input": "Place every block into a bowl, ensuring no block is in a bowl of its own color.",
+    "config": {
+      "pick": ["red block", "blue block", "green block"],
+      "place": ["red bowl", "blue bowl", "green bowl", "yellow bowl"]
+    },
+    "description": "Challenge 5 - Config 1: Inverse matching with sufficient bowl options."
+  },
+  {
+    "raw_input": "Place every block into a bowl, ensuring no block is in a bowl of its own color.",
+    "config": {
+      "pick": ["red block", "blue block", "green block", "yellow block"],
+      "place": ["red bowl", "blue bowl", "green bowl"]
+    },
+    "description": "Challenge 5 - Config 2: Inverse matching impossible for all blocks due to limited bowls."
+  },
+  {
+    "raw_input": "Move only the colors that appear exactly once into the yellow bowl; sort all remaining blocks into bowls that match their color.",
+    "config": {
+      "pick": ["red block", "blue block", "yellow block"],
+      "place": ["yellow bowl"]
+    },
+      "description": "Challenge 6 - Config 1: Every color appears exactly once, so all four blocks must end up together in the yellow bowl (no matching-color bowls provided)."
+  },
+  {
+    "raw_input": "Move only the colors that appear **exactly once** into the yellow bowl; sort all remaining blocks into bowls that match their color.",
+    "config": {
+      "pick": ["red block", "red block", "blue block", "blue block", "yellow block", "yellow block"],
+      "place": ["red bowl", "blue bowl", "green bowl", "yellow bowl"]
+    },
+    "description": "Challenge 7 – Config 3: No color appears exactly once, so the yellow bowl must stay empty while every block is sorted into its matching-color bowl."
+  }
+]

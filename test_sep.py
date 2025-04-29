@@ -32,9 +32,9 @@ from vild import *
 from env import *
 from constants import *
 from model import *
-from llm import *
+from src.models.llm import *
 from helper import *
-ENGINE = "text-davinci-003"  # "text-ada-001"
+ENGINE = "gpt-4o-mini"  # Updated to GPT-4o chat model
 #Download PyBullet assets.
 # if not os.path.exists('ur5e/ur5e.urdf'):
 #   !gdown --id 1Cc_fDSBL6QiDvNT4dpfAEbhbALSVoWcc
